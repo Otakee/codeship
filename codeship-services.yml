@@ -1,4 +1,5 @@
 app:
   build:
-    image: app
+    image: codeship/app
     dockerfile_path: Dockerfile
+  cached: true
